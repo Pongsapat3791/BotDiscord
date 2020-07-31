@@ -1,7 +1,7 @@
-![logo](https://repository-images.githubusercontent.com/186841818/8aa95700-7730-11e9-84be-e80f28520325)
+![logo](https://repository-images.githubusercontent.com/Error)
 
-# 🤖 EvoBot (Discord Music Bot)
-> EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
+# 🤖 Bot (Discord Music Bot)
+> Bot is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
 
 ## Requirements
 
@@ -13,8 +13,8 @@
 ## 🚀 Getting Started
 
 ```
-git clone https://github.com/eritislami/evobot.git
-cd evobot
+git clone https://github.com/Pongsapat3791/BotDiscord.git
+cd BotDiscord
 npm install
 ```
 
@@ -31,50 +31,50 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "TOKEN": "",
   "YOUTUBE_API_KEY": "",
   "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "/",
+  "PREFIX": "//",
   "PRUNING": false
 }
 ```
 
 ## 📝 Features & Commands
 
-> Note: The default prefix is '/'
+> Note: The default prefix is '//'
 
 * 🎶 Play music from YouTube via url
 
-`/play https://www.youtube.com/watch?v=GLvohMXgcBo`
+`//play https://www.youtube.com/watch?v=dXVzE1Pbyfc`
 
 * 🔎 Play music from YouTube via search query
 
-`/play under the bridge red hot chili peppers`
+`//play under the bridge red hot chili peppers`
 
 * 🎶 Play music from Soundcloud via url **(Requires Soundcloud Client Id)**
 
-`/play https://soundcloud.com/blackhorsebrigade/pearl-jam-alive`
+`//play https://soundcloud.com/blackhorsebrigade/pearl-jam-alive`
 
 * 🔎 Search and select music to play
 
-`/search Pearl Jam`
+`//search Pearl Jam`
 
 * 📃 Play youtube playlists via url
 
-`/playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`
+`//playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`
 
 * 🔎 Play youtube playlists via search query
 
-`/playlist linkin park meteora`
-* Now Playing (/np)
-* Queue system (/queue, /q)
-* Loop / Repeat (/loop)
-* Shuffle (/shuffle)
-* Volume control (/volume, /v)
-* Lyircs (/lyrics, /ly)
-* Pause (/pause)
-* Resume (/resume, /r)
-* Skip (/skip, /s)
-* Skip to song # in queue (/skipto, /st)
-* Toggle pruning of bot messages (/pruning)
-* Help (/help, /h)
+`//playlist linkin park meteora`
+* Now Playing (//np)
+* Queue system (//queue, //q)
+* Loop / Repeat (//loop)
+* Shuffle (//shuffle)
+* Volume control (//volume, //v)
+* Lyircs (//lyrics, //ly)
+* Pause (//pause)
+* Resume (//resume, //r)
+* Skip (//skip, //s)
+* Skip to song # in queue (//skipto, //st)
+* Toggle pruning of bot messages (//pruning)
+* Help (//help, //h)
 * Command Handler from [discordjs.guide](https://discordjs.guide/)
 * Media Controls via Reactions
 ![reactions](https://i.imgur.com/j7CevsH.png)
