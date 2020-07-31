@@ -92,4 +92,4 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 [@iCrawl](https://github.com/iCrawl) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/iCrawl/discord-music-bot)
 
-@eritislami/evobot] https://github.com/eritislami/evobot
+[@eritislami/evobot](https://github.com/eritislami/evobot)
