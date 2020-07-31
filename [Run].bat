@@ -1,4 +1,4 @@
 @echo off
-title Pictures
+title M
 
 node .
